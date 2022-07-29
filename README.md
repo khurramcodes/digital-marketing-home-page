@@ -12,8 +12,7 @@
 
 ## :clipboard: Learning Outcomes 
 
-- Image positioning
-- Button styling
+- Further enhanced the knowledge regarding image positioning
 
 ## :camera: Screenshot
 
