@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 50px 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navbar */
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container div img{
+    width: 65%;
+}
+
+.navbar-container .grow-list .list{
+    display: flex;
+}
+
+.navbar-container .grow-list .list li{
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.navbar-container .grow-list .list li:not(:first-of-type){
+    color: #B3B3B3;
+}
+
+.navbar-container .grow-list .list li:first-of-type{
+    font-weight: 500;
+}
+
+.navbar-container .button-group{
+    margin-left: auto;
+}
+
+.navbar-container .button-group .nav-button{
+    background-color: #5955B3;
+    border: none;
+    padding: 10px 16px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+/* BANNER */
+
+.banner-container div:nth-of-type(1){
+    margin-top: 110px;
+    width: 350px;
+}
+
+.banner-container .heading-text{
+    font-size: 55px;
+    color: #3C2F60;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.banner-container .heading-text span{
+    color: #5955B3;
+}
+
+.banner-container .description{
+    font-size: 14px;
+    color: #9B9B9B;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.banner-container .nav-button.btn{
+    background-color: #5955B3;
+    border: none;
+    padding: 18px 36px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.banner-container div:nth-of-type(2) img{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 45%;
+}
+
